@@ -13,6 +13,8 @@
 		CB2ABA4F24221ADC00BBC0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA4D24221ADC00BBC0C2 /* Main.storyboard */; };
 		CB2ABA5124221ADD00BBC0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */; };
 		CB2ABA5424221ADD00BBC0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5224221ADD00BBC0C2 /* LaunchScreen.storyboard */; };
+		CB2ABA5D24221CE800BBC0C2 /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5B24221CE800BBC0C2 /* Delm-Medium.otf */; };
+		CB2ABA5E24221CE800BBC0C2 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5C24221CE800BBC0C2 /* ThirstySoftRegular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2ABA5324221ADD00BBC0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2ABA5524221ADD00BBC0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2ABA5B24221CE800BBC0C2 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		CB2ABA5C24221CE800BBC0C2 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				CB2ABA4D24221ADC00BBC0C2 /* Main.storyboard */,
 				CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */,
 				CB2ABA5224221ADD00BBC0C2 /* LaunchScreen.storyboard */,
+				CB2ABA5B24221CE800BBC0C2 /* Delm-Medium.otf */,
+				CB2ABA5C24221CE800BBC0C2 /* ThirstySoftRegular.otf */,
 				CB2ABA5524221ADD00BBC0C2 /* Info.plist */,
 			);
 			path = p4.1;
@@ -127,6 +133,8 @@
 			files = (
 				CB2ABA5424221ADD00BBC0C2 /* LaunchScreen.storyboard in Resources */,
 				CB2ABA5124221ADD00BBC0C2 /* Assets.xcassets in Resources */,
+				CB2ABA5E24221CE800BBC0C2 /* ThirstySoftRegular.otf in Resources */,
+				CB2ABA5D24221CE800BBC0C2 /* Delm-Medium.otf in Resources */,
 				CB2ABA4F24221ADC00BBC0C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.merouanebellaha.p4-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.merouanebellaha.p4-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
