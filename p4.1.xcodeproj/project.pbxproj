@@ -80,7 +80,7 @@
 		CB2ABA3B24221ADC00BBC0C2 = {
 			isa = PBXGroup;
 			children = (
-				CB2ABA4624221ADC00BBC0C2 /* instaGrid */,
+				CB2ABA4624221ADC00BBC0C2 /* p4.1 */,
 				CB2ABA4524221ADC00BBC0C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +93,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB2ABA4624221ADC00BBC0C2 /* instaGrid */ = {
+		CB2ABA4624221ADC00BBC0C2 /* p4.1 */ = {
 			isa = PBXGroup;
 			children = (
 				CB08CBFE243B5533009FAEDA /* View */,
@@ -105,7 +105,7 @@
 				CB08CC00243B5559009FAEDA /* Font */,
 				CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */,
 			);
-			path = instaGrid;
+			path = p4.1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "instaGrid" */;
+			buildConfigurationList = CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "p4.1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -363,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "instaGrid" */ = {
+		CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "p4.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB2ABA5624221ADD00BBC0C2 /* Debug */,

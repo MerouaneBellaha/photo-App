@@ -55,6 +55,7 @@ final class ViewController: UIViewController {
     
     /// Present the imagePickerController.
     @IBAction private func plusButtonTapped(_ sender: UIButton) {
+        plusButtons.forEach { $0.isSelected = false }
         sender.isSelected = true
         present(imagePickerController, animated: true)
     }
@@ -107,7 +108,6 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
             plusButtons.forEach {
                 guard $0.state == .selected else { return }
                 $0.setImage(chosenImage, for: .normal)
-                $0.isSelected = false
             }
         }
         dismiss(animated: true)
