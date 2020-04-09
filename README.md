@@ -16,7 +16,7 @@ What have been learned:
 
   1: UIImagePickerController  
      UISwipeGestureRecognizer  
-     UIActivityViewController
+     UIActivityViewController  
      NotificationCenter 
      
   2: Auto-layout, responsiveness
