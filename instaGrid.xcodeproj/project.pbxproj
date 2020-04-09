@@ -13,8 +13,9 @@
 		CB2ABA4F24221ADC00BBC0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA4D24221ADC00BBC0C2 /* Main.storyboard */; };
 		CB2ABA5124221ADD00BBC0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */; };
 		CB2ABA5424221ADD00BBC0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5224221ADD00BBC0C2 /* LaunchScreen.storyboard */; };
-		CB2ABA5D24221CE800BBC0C2 /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5B24221CE800BBC0C2 /* Delm-Medium.otf */; };
-		CB2ABA5E24221CE800BBC0C2 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB2ABA5C24221CE800BBC0C2 /* ThirstySoftRegular.otf */; };
+		CB2C6DF5243605E4000E275B /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2C6DF4243605E4000E275B /* UIView+Image.swift */; };
+		CBD7375F2432A4A1005A0DA4 /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBE35BAC242CDFA8008ADBD5 /* ThirstySoftRegular.otf */; };
+		CBD737602432A4A4005A0DA4 /* Delm-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBE35BAB242CDFA8008ADBD5 /* Delm-Medium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB2ABA5324221ADD00BBC0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB2ABA5524221ADD00BBC0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB2ABA5B24221CE800BBC0C2 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
-		CB2ABA5C24221CE800BBC0C2 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
+		CB2C6DF4243605E4000E275B /* UIView+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Image.swift"; sourceTree = "<group>"; };
+		CBE35BAB242CDFA8008ADBD5 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		CBE35BAC242CDFA8008ADBD5 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +43,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB08CBFE243B5533009FAEDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB2ABA4D24221ADC00BBC0C2 /* Main.storyboard */,
+				CB2ABA5224221ADD00BBC0C2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB08CBFF243B5549009FAEDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB2ABA4B24221ADC00BBC0C2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB08CC00243B5559009FAEDA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CBE35BAB242CDFA8008ADBD5 /* Delm-Medium.otf */,
+				CBE35BAC242CDFA8008ADBD5 /* ThirstySoftRegular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CB08CC01243B557E009FAEDA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C6DF4243605E4000E275B /* UIView+Image.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		CB2ABA3B24221ADC00BBC0C2 = {
 			isa = PBXGroup;
 			children = (
-				CB2ABA4624221ADC00BBC0C2 /* p4.1 */,
+				CB2ABA4624221ADC00BBC0C2 /* instaGrid */,
 				CB2ABA4524221ADC00BBC0C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,20 +93,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB2ABA4624221ADC00BBC0C2 /* p4.1 */ = {
+		CB2ABA4624221ADC00BBC0C2 /* instaGrid */ = {
 			isa = PBXGroup;
 			children = (
+				CB08CBFE243B5533009FAEDA /* View */,
+				CB08CBFF243B5549009FAEDA /* Controller */,
+				CB08CC01243B557E009FAEDA /* Extension */,
 				CB2ABA4724221ADC00BBC0C2 /* AppDelegate.swift */,
 				CB2ABA4924221ADC00BBC0C2 /* SceneDelegate.swift */,
-				CB2ABA4B24221ADC00BBC0C2 /* ViewController.swift */,
-				CB2ABA4D24221ADC00BBC0C2 /* Main.storyboard */,
-				CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */,
-				CB2ABA5224221ADD00BBC0C2 /* LaunchScreen.storyboard */,
-				CB2ABA5B24221CE800BBC0C2 /* Delm-Medium.otf */,
-				CB2ABA5C24221CE800BBC0C2 /* ThirstySoftRegular.otf */,
 				CB2ABA5524221ADD00BBC0C2 /* Info.plist */,
+				CB08CC00243B5559009FAEDA /* Font */,
+				CB2ABA5024221ADD00BBC0C2 /* Assets.xcassets */,
 			);
-			path = p4.1;
+			path = instaGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "p4.1" */;
+			buildConfigurationList = CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "instaGrid" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,9 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2ABA5424221ADD00BBC0C2 /* LaunchScreen.storyboard in Resources */,
+				CBD737602432A4A4005A0DA4 /* Delm-Medium.otf in Resources */,
 				CB2ABA5124221ADD00BBC0C2 /* Assets.xcassets in Resources */,
-				CB2ABA5E24221CE800BBC0C2 /* ThirstySoftRegular.otf in Resources */,
-				CB2ABA5D24221CE800BBC0C2 /* Delm-Medium.otf in Resources */,
+				CBD7375F2432A4A1005A0DA4 /* ThirstySoftRegular.otf in Resources */,
 				CB2ABA4F24221ADC00BBC0C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2C6DF5243605E4000E275B /* UIView+Image.swift in Sources */,
 				CB2ABA4C24221ADC00BBC0C2 /* ViewController.swift in Sources */,
 				CB2ABA4824221ADC00BBC0C2 /* AppDelegate.swift in Sources */,
 				CB2ABA4A24221ADC00BBC0C2 /* SceneDelegate.swift in Sources */,
@@ -327,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "p4.1" */ = {
+		CB2ABA3F24221ADC00BBC0C2 /* Build configuration list for PBXProject "instaGrid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB2ABA5624221ADD00BBC0C2 /* Debug */,
