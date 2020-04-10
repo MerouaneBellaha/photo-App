@@ -19,5 +19,7 @@ What have been learned:
      UIActivityViewController  
      NotificationCenter 
      
-  2: Auto-layout, responsiveness
+  2: Auto-layout 
+     Responsiveness  
+     StackView
 
