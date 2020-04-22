@@ -1,7 +1,7 @@
 
 ![](/appArchitecture.png)
 
-This Single view photo has been made as part of my iOs developper course from OpenClassrooms.
+This Single view photo app has been made as part of my iOs developper course from OpenClassrooms.
 
 Here are the constraints:
 
@@ -9,10 +9,10 @@ Here are the constraints:
   
   2: Usable in portrait and landscape.  
   
-  3: User can choose between 3 different layout. Add an image from his photo library in the chosen layout.  
-     User can share his layout.
+  3: User can choose between 3 different layouts. Add images from his photo library in the chosen layout.  
+     And can share his layout.
   
-What have been learned:
+What has been learned:
 
   1: UIImagePickerController  
      UISwipeGestureRecognizer  
